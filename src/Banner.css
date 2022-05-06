@@ -14,8 +14,34 @@
     width: 300px;
 }
 
+.banner__search {
+    display: flex;
+    /* this will expand the search dates to the width of the screen */
+    flex-direction: column; 
+}
+
+.banner__searchButton {
+    background-color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    color: #ff7779 !important;
+
+}
+
 .banner__info > button {
     background-color: #ff7779;
     color: white;
     text-transform: inherit;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+/* this will invert the color of the button when cursor is hovered over */
+.banner__info > button:hover {
+    background-color: white;
+    color: #ff7779;
+}
+
+.banner__info > h5 {
+    margin-top: 10px;
 }
