@@ -1,28 +1,19 @@
 import './App.css';
 import Home from './Home'
 import Header from './Header'
+import Footer from './Footer'
 
 function App() {
   return (
 
     // BEM
     <div className="App">
-    <Header />
-    <Home /> 
-    {/* Home */}
-      {/* Header */}
+      <Router>
+        <Header />
+        <Home /> 
+        <Footer />
 
-      {/* Banner */}
-        {/* Search */}
-
-      {/* Cards */}
-
-      {/* Footer */}
-
-      {/* SearchPage */}
-        {/* Header */}
-        {/* ... */}
-
+      </Router>
     </div>
   );
 }
