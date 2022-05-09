@@ -1,4 +1,4 @@
-This project was in conjunction with https://www.youtube.com/watch?v=BtJeH_-XYaA&t=3372s
+This project was in conjunction with https://www.youtube.com/watch?v=BtJeH_-XYaA&t=
 
 
 
